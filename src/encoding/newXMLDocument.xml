@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<test-config>
+    <player>
+        <fps>25</fps>
+        <buffer>0</buffer>
+    </player>
+    <action-def>
+        <action id="ref_Transition_EDR1_imp_Transition_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR3_imp_DLC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR1_imp_Average_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_HDR_imp_Transition_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR1_imp_DLC_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_DHC_HDR_imp_DHC_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DHC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/DHC_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR1_imp_DLC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR1_imp_LHC_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR1_imp_Transition_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_HDR_imp_DLC_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_HDR_imp_Average_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR3_imp_DLC_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_LLC_EDR1_imp_LLC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LLC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/LLC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR1_imp_LHC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR3_imp_Average_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_DHC_HDR_imp_DHC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DHC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/DHC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_HDR_imp_DLC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR1_imp_Transition_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_LLC_EDR3_imp_LLC_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LLC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/LLC_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_HDR_imp_DLC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_LLC_HDR_imp_LLC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LLC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/LLC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR3_imp_Average_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/Average_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_LLC_HDR_imp_LLC_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LLC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/LLC_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR3_imp_Transition_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR2_imp_LHC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR1_imp_Average_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR3_imp_Transition_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_DHC_EDR3_imp_DHC_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DHC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/DHC_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR3_imp_DLC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR2_imp_Transition_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_HDR_imp_Average_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR3_imp_LHC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR1_imp_LHC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_DHC_HDR_imp_DHC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DHC_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/DHC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR2_imp_DLC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR1_imp_Transition_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_DLC_EDR1_imp_DLC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/DLC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/DLC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR2_imp_Average_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_LLC_EDR2_imp_LLC_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LLC_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/LLC_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR3_imp_LHC_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR2_imp_LHC_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_LLC_EDR3_imp_LHC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LLC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR3_imp_Average_EDR1" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR1.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR3_imp_LHC_HDR" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR3.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_HDR.avi </ImpairedFile>
+        </action >
+        <action id="ref_Transition_EDR2_imp_Transition_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Transition_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/Transition_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_HDR_imp_Average_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_HDR.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR2.avi </ImpairedFile>
+        </action >
+        <action id="ref_Average_EDR2_imp_Average_EDR3" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/Average_EDR2.avi </ReferenceFile>
+            <ImpairedFile> content/Average_EDR3.avi </ImpairedFile>
+        </action >
+        <action id="ref_LHC_EDR1_imp_LHC_EDR2" fqn="SubjectiveTester.DSISAction">
+            <ReferenceFile> content/LHC_EDR1.avi </ReferenceFile>
+            <ImpairedFile> content/LHC_EDR2.avi </ImpairedFile>
+        </action >
+
+
+        <action id="registerSubject" fqn="SubjectiveTester.RegisterSubjectAction"/>  
+        <action id="explanation" fqn="SubjectiveTester.MessageAction">
+            <Title>  </Title>
+            <Message>
+
+                Welcome to this television experiment.
+
+                Each time, you will see two videos of which you have to compare overall quality, color, and contrast. Use the left mouse button to select a number from -3 to +3 to indicate your opinion regarding the LAST video compared to the first.
+                You will start with three training sessions. 
+
+                Click OK when ready.
+
+
+                Thank you in advance.
+            </Message>
+        </action>
+
+        <action id="start_test" fqn="SubjectiveTester.MessageAction">
+            <Title>  </Title>
+            <Message>
+
+                The trials are now over. 
+
+                Click START to begin the experiment.
+
+                Thank you in advance.
+            </Message>
+
+
+        </action>
+        <action id="questions" fqn="SubjectiveTester.QuestionAction"/>
+        <action id="thanks" fqn="SubjectiveTester.ThankYouAction"/>
+    </action-def>
+ 
+    <process>
+        <step actionId="registerSubject"/>  
+        <step actionId="explanation"/>
+  
+  
+        <step actionId="ref_FireEater_EDR_imp_FireEater_HDR"/>
+
+        <!---training sequences-->
+
+        <step actionId="start_test"/>
+        <step actionId="ref_Transition_EDR1_imp_Transition_HDR"/>
+        <step actionId="ref_DLC_EDR3_imp_DLC_EDR3"/>
+        <step actionId="ref_Average_EDR1_imp_Average_EDR3"/>
+        <step actionId="ref_Transition_HDR_imp_Transition_EDR2"/>
+        <step actionId="ref_DLC_EDR1_imp_DLC_EDR2"/>
+        <step actionId="ref_DHC_HDR_imp_DHC_EDR1"/>
+        <step actionId="ref_DLC_EDR1_imp_DLC_EDR3"/>
+        <step actionId="ref_LHC_EDR1_imp_LHC_EDR1"/>
+        <step actionId="ref_Transition_EDR1_imp_Transition_EDR1"/>
+        <step actionId="ref_DLC_HDR_imp_DLC_EDR2"/>
+        <step actionId="ref_Average_HDR_imp_Average_EDR1"/>
+        <step actionId="ref_DLC_EDR3_imp_DLC_EDR1"/>
+        <step actionId="ref_LLC_EDR1_imp_LLC_HDR"/>
+        <step actionId="ref_LHC_EDR1_imp_LHC_EDR3"/>
+        <step actionId="ref_Average_EDR3_imp_Average_EDR3"/>
+        <step actionId="ref_DHC_HDR_imp_DHC_EDR3"/>
+        <step actionId="ref_DLC_HDR_imp_DLC_EDR3"/>
+        <step actionId="ref_Transition_EDR1_imp_Transition_EDR3"/>
+        <step actionId="ref_LLC_EDR3_imp_LLC_EDR1"/>
+        <step actionId="ref_DLC_HDR_imp_DLC_HDR"/>
+        <step actionId="ref_LLC_HDR_imp_LLC_HDR"/>
+        <step actionId="ref_Average_EDR3_imp_Average_HDR"/>
+        <step actionId="ref_LLC_HDR_imp_LLC_EDR2"/>
+        <step actionId="ref_Transition_EDR3_imp_Transition_EDR1"/>
+        <step actionId="ref_LHC_EDR2_imp_LHC_EDR3"/>
+        <step actionId="ref_Average_EDR1_imp_Average_EDR2"/>
+        <step actionId="ref_Transition_EDR3_imp_Transition_EDR3"/>
+        <step actionId="ref_DHC_EDR3_imp_DHC_EDR1"/>
+        <step actionId="ref_DLC_EDR3_imp_DLC_HDR"/>
+        <step actionId="ref_Transition_EDR2_imp_Transition_EDR2"/>
+        <step actionId="ref_Average_HDR_imp_Average_EDR3"/>
+        <step actionId="ref_LHC_EDR3_imp_LHC_EDR3"/>
+        <step actionId="ref_LHC_EDR1_imp_LHC_HDR"/>
+        <step actionId="ref_DHC_HDR_imp_DHC_HDR"/>
+        <step actionId="ref_DLC_EDR2_imp_DLC_EDR3"/>
+        <step actionId="ref_Transition_EDR1_imp_Transition_EDR2"/>
+        <step actionId="ref_DLC_EDR1_imp_DLC_HDR"/>
+        <step actionId="ref_Average_EDR2_imp_Average_EDR2"/>
+        <step actionId="ref_LLC_EDR2_imp_LLC_EDR3"/>
+        <step actionId="ref_LHC_EDR3_imp_LHC_EDR1"/>
+        <step actionId="ref_LHC_EDR2_imp_LHC_EDR2"/>
+        <step actionId="ref_LLC_EDR3_imp_LHC_HDR"/>
+        <step actionId="ref_Average_EDR3_imp_Average_EDR1"/>
+        <step actionId="ref_LHC_EDR3_imp_LHC_HDR"/>
+        <step actionId="ref_Transition_EDR2_imp_Transition_EDR3"/>
+        <step actionId="ref_Average_HDR_imp_Average_EDR2"/>
+        <step actionId="ref_Average_EDR2_imp_Average_EDR3"/>
+        <step actionId="ref_LHC_EDR1_imp_LHC_EDR2"/>
+
+
+
+
+        <!--<step actionId="test2"/>-->
+
+
+        <step actionId="thanks"/>
+    </process>
+</test-config>
